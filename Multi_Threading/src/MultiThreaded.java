@@ -15,9 +15,12 @@ public class MultiThreaded {
                         if(count > 1)
                             break;
                     }
-                   if(count == 1)
+                   if(count == 1){
                        L1.add(i);
+                     //  System.out.print(i+" ");
+                   }
                 }
+                //System.out.println();
                 System.out.println(L1);
             }
         };
@@ -32,11 +35,14 @@ public class MultiThreaded {
                 L2.add(b);
                 for(int i=1;i<20;i++){
                     c=  a + b;
-                    if(c<1000)
+                    if(c<1000){
+                        //System.out.print(c+" ");
                     L2.add(c);
+                    }
                     a=b;
                     b=c;
                 }
+                System.out.println();
                 System.out.println(L2);
             }
         };
