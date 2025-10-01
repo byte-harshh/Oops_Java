@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Abstraction/Abstraction.iml" filepath="$PROJECT_DIR$/Abstraction/Abstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exception_Handelling/Exception_Handelling.iml" filepath="$PROJECT_DIR$/Exception_Handelling/Exception_Handelling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/File_Handelling/IO_Streams.iml" filepath="$PROJECT_DIR$/File_Handelling/IO_Streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IO_Streams_/IO_Streams_.iml" filepath="$PROJECT_DIR$/IO_Streams_/IO_Streams_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multi_Threading/Multi_Threading.iml" filepath="$PROJECT_DIR$/Multi_Threading/Multi_Threading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Oops_Java.iml" filepath="$PROJECT_DIR$/.idea/Oops_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Packages/Packages.iml" filepath="$PROJECT_DIR$/Packages/Packages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice_Basics/Practice_Basics.iml" filepath="$PROJECT_DIR$/Practice_Basics/Practice_Basics.iml" />
+    </modules>
+  </component>
+</project>
