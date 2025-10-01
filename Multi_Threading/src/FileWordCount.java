@@ -52,9 +52,21 @@ class File3 extends Thread{
 }
 
 public class FileWordCount {
-    public static void main(String[] args) {
-        new File1().start();
-        new File2().start();
-        new File3().start();
+    public static void main(String[] args) throws InterruptedException {
+//        new File1().start();
+//        new File2().start();
+//        new File3().start();
+
+          Thread t1 = new File1();
+          t1.start();
+          t1.join();
+          Thread t2 = new File2();
+          t2.start();
+          t2.join();
+          Thread t3 = new File3();
+          t3.start();
+          t3.join();
+
+
     }
 }
